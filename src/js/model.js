@@ -24,5 +24,6 @@ export const loadRecipe = async function(id) {
     } catch (err){
         // Temp error nandling
         console.log(`${err} 🔥🔥🔥 `);
+        throw err;
     }
  };
